@@ -1,6 +1,6 @@
 # LM4J
 
-Simplifying natural language handling in Java. These classes make it easy to read lang-like (plain text) files and return results safely..
+Simplifying natural language handling in Java. These classes make it easy to read lang-like (plain text) files and return results safely.
 
 ## Table of Contents
 
