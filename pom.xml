@@ -6,7 +6,7 @@
 
     <groupId>io.github.kareiku</groupId>
     <artifactId>LM4J</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>LM4J</name>
     <url>https://github.com/kareiku/LM4J</url>
