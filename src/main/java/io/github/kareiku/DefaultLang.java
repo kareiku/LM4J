@@ -1,6 +1,7 @@
 package io.github.kareiku;
 
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -33,7 +34,7 @@ public class DefaultLang implements Lang {
     }
 
     @Override
-    public @NotNull Optional<String> getOptionalLine(@NotNull String key) {
+    public @NotNull Optional<String> getOptionalLine(@Nullable String key) {
         return Optional.ofNullable(this.lines.get(key));
     }
 }
